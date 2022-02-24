@@ -113,7 +113,7 @@ class MediaLibraryFeatures {
 	 * @since 1.0
 	 */
 	public function registerSizeColumn( $cols ) {
-		$cols['filesize'] = _x( 'File Size', 'Stack : Media Library Admin Table', 'stack' );
+		$cols['filesize'] = _x( 'File Size', 'Media Library Admin Table', 'media-library-file-size' );
 		return $cols;
 	}
 
